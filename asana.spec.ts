@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 const testCases = JSON.parse(JSON.stringify(require("./testinfo.json")))
-import { Toolbox } from '../tests-examples/toolbox'; //contains the log in method
+import { Toolbox } from './toolbox'; //contains the log in method
 
 testCases.forEach(data => {
 
